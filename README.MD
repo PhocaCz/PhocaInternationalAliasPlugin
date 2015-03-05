@@ -1,0 +1,1 @@
+Phoca International Alias Plugin is Joomla! CMS extension. Plugin which translated national diacritics characters to ascii (used in aliases).
