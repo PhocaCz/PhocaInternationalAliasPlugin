@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/plugin-install.dtd">
+<install type="plugin" group="system" version="1.5.0" method="upgrade" >
+	<name>Phoca International Alias Plugin</name>
+	<creationDate>04/09/2012</creationDate>
+	<author>Jan Pavelka (www.phoca.cz)</author>
+	<authorEmail>info@phoca.cz</authorEmail>
+	<authorUrl>www.phoca.cz</authorUrl>
+	<copyright>Jan Pavelka</copyright>
+	<license>GNU/GPL</license>
+	<version>1.0.4</version>
+	<!-- The description is optional and defaults to the name -->
+	<description>Phoca International Alias - creates correct alias from title (Languages: Croatian, Czech, Greek, Hungarian, Icelandic, Lithuanian, Polish, Russian, Slovak, Slovenian, Turkish)</description>
+
+	<!-- Main File Copy Section -->
+	<files>
+		<filename plugin="phocainternationalalias">phocainternationalalias.php</filename>
+		<filename plugin="phocainternationalalias">phocainternationalalias.xml</filename>
+	</files>
+	
+	<params>
+		
+		<param name="croatian-lang" type="radio" default="1" label="Croatian" description="Croatian Language">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		
+		<param name="czech-lang" type="radio" default="1" label="Czech" description="Czech Language">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		
+		<param name="greek-lang" type="radio" default="1" label="Greek" description="Greek Language">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		
+		<param name="hungarian-lang" type="radio" default="1" label="Hungarian" description="Hungarian Language">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		
+		<param name="icelandic-lang" type="radio" default="1" label="Icelandic" description="Icelandic Language">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		
+		<param name="lithuanian-lang" type="radio" default="1" label="Lithuanian" description="Lithuanian Language">
+		   <option value="1">Yes</option>
+		   <option value="0">No</option>
+		</param>
+		
+		<param name="polish-lang" type="radio" default="1" label="Polish" description="Polish Language">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		
+		<param name="russian-lang" type="radio" default="1" label="Russian" description="Russian Language">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		
+		<param name="slovak-lang" type="radio" default="1" label="Slovak" description="Slovak Language">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		
+		<param name="slovenian-lang" type="radio" default="1" label="Slovenian" description="Slovenian Language">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		
+		<param name="turkish-lang" type="radio" default="1" label="Turkish" description="Turkish Language">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+	</params>
+</install>
